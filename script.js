@@ -1,6 +1,5 @@
 
 const scriptURL = "https://script.google.com/macros/s/AKfycby2NLJjfvOFqclBEZiNFe9ciB1V19rftE-sJRM-vWdGLYjLov9yThr41BGeBRI41pVNrg/exec";
-
 document.getElementById("dataForm").addEventListener("submit", e => {
   e.preventDefault();
   const data = {
